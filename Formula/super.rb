@@ -1,25 +1,25 @@
 class Super < Formula
   desc "super: a fast, minimal terminal coding agent"
   homepage "https://github.com/chwzr/super"
-  version "0.0.36"
+  version "0.0.37"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/chwzr/super/releases/download/v0.0.36/super-aarch64-apple-darwin.tar.gz"
-      sha256 "119439efa8ecf22a38ed058a7663f95674ab4d7591f6ad9531ec1600df086ffc"
+      url "https://github.com/chwzr/super/releases/download/v0.0.37/super-aarch64-apple-darwin.tar.gz"
+      sha256 "c16d76e779b1f9cb7e8e9671eec76bdaebda96a1ee0d820ff514f111e7527452"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chwzr/super/releases/download/v0.0.36/super-x86_64-apple-darwin.tar.gz"
-      sha256 "77bb1b16b9138062d7917d0d731c5347e5282443689be4028a062850d2e9dcd4"
+      url "https://github.com/chwzr/super/releases/download/v0.0.37/super-x86_64-apple-darwin.tar.gz"
+      sha256 "d8ec5e0c45fd2c8f5ef60b4f2b9aebcd28a8f1254c271bda47286a9292a12969"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/chwzr/super/releases/download/v0.0.36/super-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "012aadb4cf8dbd323abebdb3b73f935840a86c547deb4b17404fd3825100e4d3"
+      url "https://github.com/chwzr/super/releases/download/v0.0.37/super-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d3b43388ea822fbaef04c89c2f4c35f608565dc4a797084796885e95fb6f15ad"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chwzr/super/releases/download/v0.0.36/super-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2290e58747123f9d28dd886c00e40afc08c35e04403cb79c254f0be84b0d2387"
+      url "https://github.com/chwzr/super/releases/download/v0.0.37/super-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d7fa3610207df52a0a11c411843d972aef9da3d48482b343459f18f9bfb38129"
     end
   end
   license "MIT"
